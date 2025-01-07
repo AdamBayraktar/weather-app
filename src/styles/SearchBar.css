@@ -1,0 +1,65 @@
+:root {
+  --inputColor: #7e7171;
+  --inputFocus: #000000;
+}
+
+.search_bar {
+  margin-bottom: var(--bottom-margin);
+}
+
+/* input */
+.search_bar input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  background: none;
+  border-bottom: 1px solid var(--inputColor);
+  color: var(--inputFocus);
+}
+
+.search_bar input:focus {
+  outline: none;
+  border: none;
+  /* border-bottom: 1px solid var(--inputFocus); */
+  box-shadow: #000000 0px 0px 2px;
+}
+
+.search_bar input::placeholder {
+  color: var(--inputColor);
+}
+
+.search_bar input.error {
+  border: 2px solid red;
+  animation: shake 0.2s ease-in-out 0s 2;
+  box-shadow: #000000 0px 0px 0px;
+}
+
+@keyframes shake {
+  0% {
+    margin-left: 0rem;
+  }
+  25% {
+    margin-left: 0.5rem;
+  }
+  75% {
+    margin-left: -0.5rem;
+  }
+  100% {
+    margin-left: 0rem;
+  }
+}
+
+/* button */
+.search_bar button {
+  color: white;
+  background-color: #007bff;
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search_bar button:hover {
+  background-color: #0056b3;
+}

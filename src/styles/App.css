@@ -1,0 +1,11 @@
+main {
+  z-index: 20;
+  padding: 20px min(100px, 5%);
+  min-height: 30%;
+  margin: min(50px, 3%);
+  border-radius: 30px;
+  background-color: #ffffff;
+  /* background-image: url("blue-sky-background.jpg") !important; */
+  background-size: cover;
+  box-shadow: rgb(0, 0, 0, 60%) 0px 1px 5px;
+}
