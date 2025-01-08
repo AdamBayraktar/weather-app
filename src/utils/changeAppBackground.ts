@@ -1,4 +1,4 @@
-import { WeatherBackground } from "../interfaces/Weather";
+import { WeatherBackground } from "@interfaces/Weather";
 import weatherBackgrounds from "../config/weatherBackgrounds";
 import { makeItRain, stopRain } from "./makeItRain";
 

@@ -1,4 +1,4 @@
-import API_KEY from "./API_KEY";
+import API_KEY from "@api/API_KEY";
 
 export async function fetchCityCoords(
   searchCity: string

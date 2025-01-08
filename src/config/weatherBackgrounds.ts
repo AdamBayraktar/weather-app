@@ -1,4 +1,4 @@
-import { WeatherBackground } from "../interfaces/Weather";
+import { WeatherBackground } from "@interfaces/Weather";
 
 // const initial: WeatherBackground = {
 //   innerColor: "rgb(133, 133, 133)",

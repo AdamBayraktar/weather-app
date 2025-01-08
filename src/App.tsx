@@ -1,11 +1,11 @@
 import { useState } from "react";
-import SearchBar from "./components/SearchBar";
-import { WeatherDetails } from "./components/WeatherDetails";
-import "./styles/App.css";
-import changeBackground from "./utils/changeAppBackground";
-import fetchWeather from "./api/fetchWeather";
-import { WeatherData } from "./interfaces/Weather";
 import { Loader2 } from "lucide-react";
+import "./styles/App.css";
+import SearchBar from "@components/SearchBar";
+import { WeatherDetails } from "@components/WeatherDetails";
+import changeBackground from "@utils/changeAppBackground";
+import fetchWeather from "@api/fetchWeather";
+import { WeatherData } from "@interfaces/Weather";
 
 function App() {
   const [weather, setWeather] = useState<WeatherData | null>(null);

@@ -1,5 +1,5 @@
-import API_KEY from "./API_KEY";
-import { fetchCityCoords } from "./fetchCityCoordination";
+import { fetchCityCoords } from "@api/fetchCityCoordination";
+import API_KEY from "@api/API_KEY";
 
 const fetchWeather = async (
   searchCity: string,
